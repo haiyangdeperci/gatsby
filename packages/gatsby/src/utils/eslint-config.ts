@@ -88,6 +88,7 @@ export const eslintConfig = (
           `warn`,
           {
             allowNamespace: true,
+	    allowAllCaps: true,
           },
         ],
         // https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/master/docs/rules
